@@ -1,81 +1,89 @@
 /* General Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  body {
-    background-color: #f4f4f9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #333;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 2rem;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1, h2 {
-    margin-bottom: 10px;
-    color: #222;
-  }
-  
-  p {
-    margin: 20px 0;
-    font-size: 1.2rem;
-  }
-  
-  /* Navbar */
-  .navbar {
-    width: 100%;
-    background-color: #1DB954; /* Spotify green */
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #1DB954; /* Spotify green */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navbar-brand h1 {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.spotify-logo {
+  width: 40px;
+  height: 40px;
+}
+
+/* Listen Button */
+.listen-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #1DB954; /* Spotify green */
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.listen-button:hover {
+  background-color: #1aa34a;
+}
+
+.spotify-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px; /* Add some space between logo and text */
+}
+
+@media (max-width: 768px) {
   .navbar-brand h1 {
-    font-size: 1.8rem;
-    color: white;
+    font-size: 1.4rem;
   }
-  
-  .navbar-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .spotify-logo {
-    width: 40px;
-    height: 40px;
-  }
-  
-  /* Listen Button */
-  .listen-button {
-    background-color: #1DB954; /* Spotify green */
-    color: white;
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .listen-button:hover {
-    background-color: #1aa34a;
-  }
-  
-  @media (max-width: 768px) {
-    .navbar-brand h1 {
-      font-size: 1.4rem;
-    }
-  }
-  
+}
