@@ -2,48 +2,46 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Melody Map - Listen Now</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill Bops - Spotify Playlist</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- Navbar Section -->
-  <nav class="navbar">
-    <div class="navbar-brand">
-      <h1>Melody Map</h1>
-    </div>
-    <div class="navbar-right">
-      <a href="https://spotify.com" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify Logo" class="spotify-logo">
-      </a>
-    </div>
-  </nav>
 
-  <!-- Main Content -->
-  <div class="container">
-    <div class="content">
-      <h2>Enjoy Your Playlist</h2>
-      <p>Tap the button below to open the playlist in Spotify and enjoy the music right away!</p>
-      <a href="https://open.spotify.com/playlist/YOUR_PLAYLIST_LINK" target="_blank" class="listen-button">
-        <!--<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify Logo" class="spotify-icon"> -->
-        Listen Now
-      </a>
-    </div>
-  </div>
+    <!-- Top Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="#" class="close-btn">×</a>
+            <div class="brand">
+                <h2>Instagram</h2>
+                <span class="sub-domain">play.chillbops.com</span>
+            </div>
+        </div>
+    </nav>
 
-  <!-- Footer Section -->
-  <footer>
-    <div class="footer-container">
-      <div class="footer-links">
-        <a href="https://www.melodymap.com/about" target="_blank">About Us</a>
-        <a href="https://www.melodymap.com/contact" target="_blank">Contact Us</a>
-        <a href="https://www.melodymap.com/privacy" target="_blank">Privacy Policy</a>
-      </div>
-      <p>&copy; 2024 Melody Map. All Rights Reserved.</p>
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <img src="album-artwork.jpg" alt="Album Artwork" class="artwork">
+        <div class="playlist-info">
+            <div class="spotify-play">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify Logo" class="spotify-logo">
+                <button class="play-btn">Play</button>
+            </div>
+            <h3 class="playlist-title">Chill Bops</h3>
+        </div>
     </div>
-  </footer>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>By using this service, you agree to the use of cookies.</p>
+        <button class="manage-privacy-btn">Manage Privacy</button>
+        <div class="powered-by">
+            <p>Powered by</p>
+            <strong>Toneden</strong>
+        </div>
+    </footer>
 
 </body>
 
